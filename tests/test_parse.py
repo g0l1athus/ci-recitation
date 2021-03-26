@@ -6,7 +6,7 @@ from app.parse import parse, Person
 class TestParse(unittest.TestCase):
     def test_valid_csv(self):
         # Valid CSV Example
-        valid_csv = '1,John Smith,Pittsburgh,PA,15224,42'
+        valid_csv = 'extra,1,John Smith,Pittsburgh,PA,15224,42'
 
         p = parse(valid_csv)
 
