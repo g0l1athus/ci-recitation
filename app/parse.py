@@ -11,7 +11,7 @@ class Person:
 def parse(csv_input):
     values = csv_input.split(',')
 
-    if len(values) != 6:
+    if len(values) != 7:
         return None
 
     p = Person()
